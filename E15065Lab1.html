@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+.body{
+	border:solid;
+	border-width:thin;
+	width:600px;
+	padding:25px;
+    margin: 30px;
+	height:600px;
+	padding-left: 50px;		
+}
+form{
+	line-height:1.5;
+}
+.size,.src,.color,.extra,.deliver,.comment,.name{width:100%}
+.search2,.size2,.color2,.extra2,.comment2,.pos{
+	width:70%;
+	display:inline;
+	float:left;
+}
+.size1,.color1,.deliver1,.comment1,.search1{
+	text-align:center;
+	width:30%;
+	display:inline;
+	float:left;
+}
+.text{
+	text-align:center;
+	width:20%;
+	display:inline;
+	float:left;
+}
+.deliver2{
+	width:80%;
+	display:inline;
+	float:left;
+}
+
+.deliver1{
+	padding-top:50px;
+}
+.comment1{
+	padding-top:70px;
+}
+.extra1{
+	text-align:center;
+	padding-top:10px;
+	width:30%;
+	display:inline;
+	float:left;
+}
+.comment2{
+	padding-top:5px;
+}
+
+
+</style>
+</head>
+<div class="body">
+<body>
+<h1>Buy T-Shirt Online<h1>
+<h2>Fill out the form below and click "Order Now" to order</h2>
+	
+	
+<form>
+	<div class="src">
+	<div class="search1"><b>Search by order number:</b></div>
+	<div class="search2"><input type="text" name="order number">		
+	<input type="button" value="Search"><br></div>
+	</div>
+
+	<div class="size">
+	<div class="size1"><b>Choose your size:</b></div>
+	<div class="size2">
+	<input type="radio" name="size" value="Small">Small
+	<input type="radio" name="size" value="Medium">Medium
+	<input type="radio" name="size" value="Large">Large</div><br>
+	</div>
+	 
+	<div class="color">
+	<div class="color1"><b>Choose your colour:</b></div>
+	<div class="color2"><select>
+	<option value="red">Red</option>
+	<option value="purple">Purple</option>
+	<option value="blue">Blue</option>
+	<option value="green">Green</option>
+	</select><br></div>
+	</div>
+
+	<div class="extra">
+	<div class="">
+	<div class="extra1"><b>Extra Items:</b></div>
+	<div class="extra2"><b><input type="checkbox" name="itemA"value="Cap">Cap</input><br>
+	<input type="checkbox" name="itemB"value="watch">Wrist Band</input>
+	<br></div>
+	</div>
+
+	<div class="deliver">
+	<div class="deliver1"><b>Deliver To:</b></div>
+	<div class="pos">
+	<div class="name"> 
+	<div class="text"><b>First name:</b></div>
+	<div class="deliver2"><input type="text" name="firstname"><br></div>
+	
+	<div class="text"><b>Last name:</b></div>
+	<div class="deliver2"><input type="text" name="lasttname"><br></div>
+	
+	<div class="text"><b>Address1:</b></div>
+	<div class="deliver2"><input type="text" name="address1"><br></div>
+	
+	<div class="text"><b>Address2:</b></div>
+	<div class="deliver2"><input type="text" name="address2"><br></div>
+	
+	<div class="text"><b>Address3:</b></div>
+	<div class="deliver2"><input type="text" name="address3"><br></div>
+	</div>
+	</div>
+	</div>	
+	
+	<div class="comment">
+	<div class="comment1"><b>Your Comments:</b></div>
+	<div class="comment2"><textarea rows="11" cols="45" name="comment" form="usrform">
+	</textarea><br>
+	<input type="button" value="Order Now"><br>	</div>
+	</div>
+	
+</form>	
+</body>
+</div>
+</html>
